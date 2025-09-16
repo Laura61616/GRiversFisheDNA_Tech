@@ -3,6 +3,7 @@
 **Data and codes for:**  
 *Integrated reanalysis of global riverine fish eDNA datasets shows robustness and congruence of biodiversity conclusions*
 
+DOI: [to be updated]
 ---
 
 ## Main Authors
