@@ -1,0 +1,54 @@
+ Family: gaussian  ( identity )
+Formula:          sqrt(prop.n.seqs) ~ type2 + Year + ReferDB + (1 | ID)
+Data: data
+
+     AIC      BIC   logLik deviance df.resid 
+  -831.4   -802.4    421.7   -843.4      918 
+
+Random effects:
+
+Conditional model:
+ Groups   Name        Variance Std.Dev.
+ ID       (Intercept) 0.03942  0.1985  
+ Residual             0.02058  0.1435  
+Number of obs: 924, groups:  ID, 40
+
+Dispersion estimate for gaussian family (sigma^2): 0.0206 
+
+Conditional model:
+                           Estimate Std. Error z value Pr(>|z|)    
+(Intercept)               19.947388  27.571945   0.723 0.469393    
+type2Unique to reanalyzed -0.039511   0.010772  -3.668 0.000245 ***
+Year                      -0.009779   0.013663  -0.716 0.474181    
+ReferDBGlobal_db           0.121362   0.069953   1.735 0.082758 .  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+ Family: gaussian  ( identity )
+Formula:          sqrt(prop.mean.seqs) ~ type2 + Year + ReferDB + (1 | ID)
+Data: data
+
+     AIC      BIC   logLik deviance df.resid 
+  -925.4   -896.5    468.7   -937.4      918 
+
+Random effects:
+
+Conditional model:
+ Groups   Name        Variance Std.Dev.
+ ID       (Intercept) 0.04368  0.2090  
+ Residual             0.01843  0.1358  
+Number of obs: 924, groups:  ID, 40
+
+Dispersion estimate for gaussian family (sigma^2): 0.0184 
+
+Conditional model:
+                          Estimate Std. Error z value Pr(>|z|)    
+(Intercept)               19.22840   28.74946   0.669   0.5036    
+type2Unique to reanalyzed -0.04148    0.01020  -4.066 4.78e-05 ***
+Year                      -0.00942    0.01425  -0.661   0.5085    
+ReferDBGlobal_db           0.14041    0.07311   1.921   0.0548 .  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+            R2m       R2c
+[1,] 0.04100914 0.6710299
+            R2m       R2c
+[1,] 0.05268274 0.7188781

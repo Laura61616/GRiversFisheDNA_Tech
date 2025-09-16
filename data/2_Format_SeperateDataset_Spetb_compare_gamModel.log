@@ -1,0 +1,41 @@
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+prop.reads.common ~ log10(median.seqs + 1) + Year + ReferDB + 
+    SR_Re
+
+Parametric coefficients:
+                         Estimate Std. Error t value Pr(>|t|)   
+(Intercept)            -1.279e+02  4.685e+01  -2.730  0.00986 **
+log10(median.seqs + 1)  6.023e-02  3.796e-02   1.587  0.12155   
+Year                    6.367e-02  2.323e-02   2.741  0.00958 **
+ReferDBGlobal_db       -1.455e-01  1.234e-01  -1.179  0.24640   
+SR_Re                  -2.083e-03  1.734e-03  -1.201  0.23772   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+R-sq.(adj) =  0.188   Deviance explained = 27.1%
+GCV = 0.13564  Scale est. = 0.11868   n = 40
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+prop.spes.new ~ log10(median.seqs + 1) + Year + ReferDB + SR_Re
+
+Parametric coefficients:
+                         Estimate Std. Error t value Pr(>|t|)   
+(Intercept)            -1.049e+02  3.445e+01  -3.046  0.00439 **
+log10(median.seqs + 1)  8.075e-02  2.791e-02   2.893  0.00652 **
+Year                    5.221e-02  1.708e-02   3.057  0.00426 **
+ReferDBGlobal_db       -9.746e-03  9.073e-02  -0.107  0.91507   
+SR_Re                  -3.704e-03  1.275e-03  -2.905  0.00632 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+R-sq.(adj) =    0.3   Deviance explained = 37.2%
+GCV = 0.073328  Scale est. = 0.064162  n = 40
