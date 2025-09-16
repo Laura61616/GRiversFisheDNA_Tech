@@ -5,8 +5,10 @@
 
 ---
 
-## Authors
-Yan Zhang (Nanjing University, eawag, University of Zurich) *et al.*
+## Main Authors
+Yan Zhang (Nanjing University, eawag, University of Zurich)
+Xiaowei Zhang (Yunnan University)
+Florian Altermatt (eawag, University of Zurich)
 
 ---
 
